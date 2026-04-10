@@ -24,7 +24,7 @@ A dedicated branching approach was used where:
 * Merging was done using pull requests (PRs) to ensure code review and maintain quality
 * Conflicts (if any) were resolved carefully before final merging
 
-## Version Control History\
+## Version Control History
 
 * The repository maintains a clean and logical commit history
 * Git operations such as clone, branch, commit, push, pull, and merge were used throughout the development lifecycle

@@ -1,40 +1,28 @@
-# ITVC_CIE3
+# ITVC_EnergyPrediction
 
 ## Git & GitHub Workflow Documentation
 
-This project follows a structured Git branching and version control strategy to ensure smooth collaboration, clear contribution tracking, and efficient code management.
+This project follows a structured Git branching and version control strategy to ensure smooth collaboration, clear contribution tracking, and efficient code management across all five pipeline modules.
 
 ## Branching Strategy
 
-A dedicated branching approach was used where:
+Five dedicated feature branches were created, one per module of the ML pipeline. Each team member worked exclusively on their own branch to avoid conflicts, and the main branch was kept stable at all times only receiving code through reviewed Pull Requests.
 
-* Separate branches were created for individual features and modules
-* Each team member worked on their own branch to avoid conflicts
-* The main branch was kept stable and production-ready at all times
+feature-process — data cleaning and preprocessing
+feature-encoding — label encoding, one-hot encoding, feature scaling
+feature-visualization — EDA charts and visual analysis
+feature-models — Linear Regression models and evaluation
+feature-streamlit — interactive Streamlit dashboard (energy_dashboard.py)
 
 ## Individual Contributions
 
-* Every team member committed their work to their respective branches
-* Commits are clearly visible in the repository history, showing individual contributions and progress
-* Meaningful commit messages were used to describe changes
-
-## Merging Process
-
-* After completing features, branches were merged into the main branch
-* Merging was done using pull requests (PRs) to ensure code review and maintain quality
-* Conflicts (if any) were resolved carefully before final merging
-
-## Version Control History
-
-* The repository maintains a clean and logical commit history
-* Git operations such as clone, branch, commit, push, pull, and merge were used throughout the development lifecycle
-* This helps in tracking changes, debugging issues, and understanding project evolution
+Each team member committed their notebook or script directly to their assigned branch. All 19 commits in the repository are traceable per file and per contributor, with descriptive commit messages such as "Added EnergyPredictionModels.ipynb" and "Added energy_dashboard.py".
+Merging Process
+Once a member completed their module, they pushed their branch to GitHub and opened a Pull Request (PRs #1–#5). The team reviewed each diff before approving the merge into main. This ensured that only reviewed, working code entered the stable branch.
+Version Control History
+The repository maintains a clean 19-commit history covering the full development lifecycle — from the initial clone and branch creation through to the final Streamlit dashboard merge (PR #5). Git operations used include clone, branch, checkout, add, commit, push, and merge via GitHub's web UI.
 
 ## Use of GitHub
 
-GitHub was actively used for:
+GitHub was actively used for code hosting, branch and PR management, and contribution tracking. The public repository at https://github.com/Sonikacbsc24/ITVC_EnergyPrediction provides full transparency into the project's evolution, with all four notebooks and the dashboard file visible on the main branch.
 
-* Code hosting and collaboration
-* Managing branches and pull requests
-* Tracking contributions and commits
-* Maintaining project transparency and workflow organization

@@ -8,11 +8,15 @@ This project follows a structured Git branching and version control strategy to 
 
 Five dedicated feature branches were created, one per module of the ML pipeline. Each team member worked exclusively on their own branch to avoid conflicts, and the main branch was kept stable at all times only receiving code through reviewed Pull Requests.
 
-feature-process — data cleaning and preprocessing
-feature-encoding — label encoding, one-hot encoding, feature scaling
-feature-visualization — EDA charts and visual analysis
-feature-models — Linear Regression models and evaluation
-feature-streamlit — interactive Streamlit dashboard (energy_dashboard.py)
+feature-process: data cleaning and preprocessing
+
+feature-encoding: label encoding, one-hot encoding, feature scaling
+
+feature-visualization: EDA charts and visual analysis
+
+feature-models: Linear Regression models and evaluation
+
+feature-streamlit: interactive Streamlit dashboard (energy_dashboard.py)
 
 ## Individual Contributions
 
